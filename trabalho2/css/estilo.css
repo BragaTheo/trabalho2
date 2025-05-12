@@ -1,0 +1,118 @@
+section {min-height: 100vh;}
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.menu-sticky {
+    position: sticky;
+    top: 0;
+    background-color: #970b0b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000;
+    height: 60px; 
+}
+
+.menu-sticky nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.menu-sticky nav a:hover {
+    color: #ffd700;
+}
+
+nav img{
+    width:40px;
+}
+.wrath {
+    width: 100%
+}
+.greed2 {
+    width: 100%
+}
+.violence {
+    width: 100%
+}
+.gluttony {
+    width: 100%
+}
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.noticia {
+    width: 200px;
+    text-align: center;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+
+
+.secao {
+    padding: 10px ; 
+    min-height: 100vh ;
+    text-align: center;
+    scroll-margin-top: 60px; 
+}
+
+#home {
+    background-color: #e0e0e0;
+}
+
+#sobre {
+    background-color: #f0f0f0;
+}
+
+#servicos {
+    background-color: #e0e0e0;
+}
+.imagemqdia {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagemqdia img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.imagemqdia p {
+    font-size: 16px;
+    color: #333;
+    margin: 0 auto;
+    max-width: 300px; /* ou até menos, se quiser quebrar antes */
+    word-wrap: break-word;
+}
+
+#contato {
+    background-color: #f0f0f0;
+}
+
+footer{
+    background-color: #970b0b;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding-top: 5px ;
+}
